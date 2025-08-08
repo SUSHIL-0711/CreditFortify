@@ -202,22 +202,17 @@ imbalanced-learn>=0.11.0
 *Main assessment interface with professional dark theme and intuitive form layout*
 
 ### High Risk Assessment
-![High Risk](screenshots/high_risk.png)
+![High Risk](assets/screenshots/high_risk.png)
 *Example of high-risk applicant with risk score 75+ and decline recommendation*
 
 ### Low Risk Assessment  
-![Low Risk](screenshots/low_risk.png)
+![Low Risk](assets/screenshots/low_risk.png)
 *Example of low-risk applicant with risk score <30 and approval recommendation*
 
 ### Manual Review Required
-![Manual Review](screenshots/manual_review.png)
+![Manual Review](assets/screenshots/manual_review.png)
 *Medium-risk case requiring manual underwriter review with detailed metrics*
 
-### Interactive Risk Gauge
-![Risk Gauge](screenshots/risk_gauge.png)
-*Real-time risk visualization with color-coded severity levels*
-
----
 
 ## Machine Learning Pipeline
 
