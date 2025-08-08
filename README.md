@@ -201,7 +201,7 @@ imbalanced-learn>=0.11.0
 
 ### High Risk Assessment
 ![High Risk](assets/screenshots/high_risk.png)
-*Example of high-risk applicant with risk score 75+ and decline recommendation*
+*Example of high-risk applicant with risk score 60+ and decline recommendation*
 
 ### Low Risk Assessment  
 ![Low Risk](assets/screenshots/low_risk.png)
