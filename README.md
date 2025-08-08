@@ -1,4 +1,4 @@
-# CreditFortify - Credit Risk Assessment Platform
+
 
 <div align="center">
 
