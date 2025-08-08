@@ -13,8 +13,6 @@
 
 ![Dashboard](assets/screenshots/dashboard.png)
 
-[Live Demo](#live-demo) • [Installation](#installation) • [Usage](#usage) • [Documentation](#documentation)
-
 </div>
 
 ---
