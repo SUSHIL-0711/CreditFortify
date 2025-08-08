@@ -198,7 +198,7 @@ imbalanced-learn>=0.11.0
 ## Screenshots
 
 ### Dashboard Overview
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](assets/screenshots/dashboard.png)
 *Main assessment interface with professional dark theme and intuitive form layout*
 
 ### High Risk Assessment
