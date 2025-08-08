@@ -1,0 +1,9 @@
+# Virtual environment
+creditguard_env/
+pyvenv.cfg
+
+# Python cache files
+__pycache__/
+
+# Generated files
+*.pkl
