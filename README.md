@@ -11,7 +11,9 @@
 
 **A Real-Time Credit Risk Prediction and Assessment System for Financial Institutions**
 
-[Live Demo](#live-demo) • [Installation](#installation) • [Usage](#usage) • [Screenshots](#screenshots) • [Documentation](#documentation)
+![Dashboard](assets/screenshots/dashboard.png)
+
+[Live Demo](#live-demo) • [Installation](#installation) • [Usage](#usage) • [Documentation](#documentation)
 
 </div>
 
@@ -197,9 +199,7 @@ imbalanced-learn>=0.11.0
 
 ## Screenshots
 
-### Dashboard Overview
-![Dashboard](assets/screenshots/dashboard.png)
-*Main assessment interface with professional dark theme and intuitive form layout*
+<div align="center">
 
 ### High Risk Assessment
 ![High Risk](assets/screenshots/high_risk.png)
@@ -213,6 +213,9 @@ imbalanced-learn>=0.11.0
 ![Manual Review](assets/screenshots/manual_review.png)
 *Medium-risk case requiring manual underwriter review with detailed metrics*
 
+</div>
+
+---
 
 ## Machine Learning Pipeline
 
@@ -295,47 +298,6 @@ Class Balance: Original imbalanced → SMOTE balanced
 Features: 8 numerical, 6 categorical
 Models Saved: Yes
 ============================================================
-```
-
----
-
-## Project Structure
-
-```
-CREDITFORTIFY/
-│
-├── app.py                           # Main Streamlit application
-├── model_development.ipynb          # Jupyter notebook for ML development
-├── requirements.txt                 # Python dependencies
-├── README.md                        # Project documentation
-├── pyvenv.cfg                       # Virtual environment configuration
-│
-├── assets/
-│   ├── creditguard_env/            # Environment assets
-│   ├── etc/                        # Additional configurations
-│   ├── Include/                    # Include files
-│   ├── Lib/                        # Library files
-│   ├── Scripts/                    # Script files
-│   └── share/                      # Shared resources
-│
-├── data/
-│   └── loan_data.csv               # Training dataset (45,000 records)
-│
-├── models/
-│   ├── best_model.pkl              # Trained XGBoost model
-│   ├── feature_names.pkl           # Feature name mapping
-│   ├── model_results.pkl           # Model evaluation results
-│   └── preprocessor.pkl            # Data preprocessing pipeline
-│
-├── notebooks/
-│   └── model_development.ipynb     # Complete ML development workflow
-│
-└── screenshots/
-    ├── dashboard.png               # Application screenshots
-    ├── high_risk.png
-    ├── low_risk.png
-    ├── manual_review.png
-    └── risk_gauge.png
 ```
 
 ---
@@ -435,6 +397,8 @@ streamlit run app.py --server.port 8501
 3. Configure environment variables
 4. Deploy automatically
 
+---
+
 ## Performance Optimization
 
 ### Speed Enhancements
@@ -471,7 +435,6 @@ The XGBoost model uses ensemble learning with:
 
 ---
 
-
 ## Contributing
 
 We welcome contributions! Please follow these steps:
@@ -490,8 +453,6 @@ We welcome contributions! Please follow these steps:
 
 ---
 
-#
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -505,6 +466,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Design**: Inspiration from modern fintech applications
 - **Community**: Contributors and beta testers
 
+---
 
 <div align="center">
 
